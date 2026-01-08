@@ -1,0 +1,5 @@
+{
+  "name": "PowerGrid: SCUC/SCED Simulator",
+  "description": "An interactive educational tool to visualize Security-Constrained Unit Commitment (SCUC) and Economic Dispatch (SCED).",
+  "requestFramePermissions": []
+}
