@@ -117,7 +117,7 @@ export const GridMap: React.FC<GridMapProps> = ({ data, result }) => {
         <div className="absolute bottom-4 left-4 bg-grid-900/90 p-2 rounded border border-grid-700 text-[10px] text-grid-300 pointer-events-none">
             <div className="flex items-center gap-2 mb-1"><div className="w-3 h-3 bg-blue-500 rounded-full"></div> 发电节点</div>
             <div className="flex items-center gap-2 mb-1"><div className="w-3 h-3 border-2 border-slate-400 rounded-full"></div> 负荷节点</div>
-            <div className="flex items-center gap-2"><div className="w-4 h-0.5 bg-red-500"></div> 线路过载 (>100%)</div>
+            <div className="flex items-center gap-2"><div className="w-4 h-0.5 bg-red-500"></div> 线路过载 (&gt;100%)</div>
         </div>
     </div>
   );
